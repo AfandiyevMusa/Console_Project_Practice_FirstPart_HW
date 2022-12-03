@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Console_Project_Practice_FirstPart_HW/1.0.0": {
+        "dependencies": {
+          "ServiceLayer": "1.0.0"
+        },
+        "runtime": {
+          "Console_Project_Practice_FirstPart_HW.dll": {}
+        }
+      },
+      "DomainLayer/1.0.0": {
+        "runtime": {
+          "DomainLayer.dll": {}
+        }
+      },
+      "RepositoryLayer/1.0.0": {
+        "dependencies": {
+          "DomainLayer": "1.0.0"
+        },
+        "runtime": {
+          "RepositoryLayer.dll": {}
+        }
+      },
+      "ServiceLayer/1.0.0": {
+        "dependencies": {
+          "DomainLayer": "1.0.0",
+          "RepositoryLayer": "1.0.0"
+        },
+        "runtime": {
+          "ServiceLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Console_Project_Practice_FirstPart_HW/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomainLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RepositoryLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServiceLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
